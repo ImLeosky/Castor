@@ -1,0 +1,52 @@
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  margin: 15 0;
+  background-color: var(--color-fondo-body);
+}
+
+/* colores */
+:root {
+    --color-fondo-container: rgba(111, 30, 75, 1);
+    --color-fondo-body: rgb(226, 221, 221);
+}
+
+/* contenedor del login y register */
+
+.container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 600px;
+  background-color: var(--color-fondo-container);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.logo img{
+    height: 500px;
+    width: 700px;
+}
+
+.formulario-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 50%;
+    margin-right: 20px;
+    background-color: blue;
+
+}
